@@ -24,6 +24,7 @@ export default function Home() {
         <Link href="/contact" className="px-6 py-3 bg-gray-700 text-white rounded hover:bg-gray-800 transition">
           Contact
         </Link>
+      
       </div>
     </main>
   );

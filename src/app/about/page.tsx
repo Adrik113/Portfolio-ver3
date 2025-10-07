@@ -1,8 +1,22 @@
+import Image from "next/image";
 export default function About() {
   return (
     <main className="min-h-screen px-6 py-20 bg-gray-50 text-gray-900 text-center">
       <h1 className="text-4xl font-bold mb-6">About Me</h1>
 
+      {/* Profile Image */}
+      <div className="flex justify-center mb-8">
+        <Image 
+           src="/Profile.png"
+            alt=" Adrik Profile Picture"
+            width={200}
+            height={200}
+            className="rounded-full shadow-lg border-4 border-green-400"
+            priority
+        />
+      </div>
+
+      {/* Bio */}
       <p className="text-lg max-w-2xl mb-6 mx-auto">
         Hi, I&apos;m <span className="text-green-400 font-semibold">Adrik</span>. 
         I&apos;m a recent graduate passionate about building full-stack applications

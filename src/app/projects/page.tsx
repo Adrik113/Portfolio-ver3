@@ -38,7 +38,7 @@ export default function ProjectsPage() {
                     </p>
                     <div className="flex space-x-4">
                         <a
-                            href="https://github.com/Adrik113/My-PortfolioDev"
+                            href="https://github.com/Adrik113/Portfolio-ver3"
                             target="_blank"
                             className="text-blue-500 hover:underline"
                         >
