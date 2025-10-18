@@ -1,8 +1,10 @@
-@import "tailwindcss";
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  background-image: linear-gradient(to bottom right, #111827, #1f2937, #047857);
-  color: #fff;
-  min-height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  @apply min-h-screen font-sans text-gray-900;
+  background: linear-gradient(to bottom right, #f0f0f0, #d1f7c4); /* light gray to green */
+  margin: 0;
 }
